@@ -1,0 +1,8 @@
+body {
+  background-image: url("../../resources/images/people-at-work-white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.home {
+  overflow-x: hidden;
+}

@@ -1,0 +1,14 @@
+#searchBar {
+  border: 1px solid gray !important;
+  color: white;
+  width: 300px;
+}
+
+h1 {
+  padding-top: 50px;
+  font-weight: 700 !important;
+}
+
+.searchBar {
+  padding-top: 20px;
+}
