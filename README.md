@@ -1,69 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Volunteer Network
 
-## Available Scripts
+Creative Agency is a full-stack web app that serves the purpose of a volunteering service community.
 
-In the project directory, you can run:
+### The source code is uploaded at two parts in two repositories.
 
-### `npm start`
+> Live Link: https://volunteer-network-client-f388c.web.app/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> Client: https://github.com/rafinrabbi/Volunteer-network-client
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+> Server: https://github.com/rafinrabbi/volunteer-network-server
 
-### `npm test`
+## Main Features
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A volunteer can select desired service which s/he wants to provide
+- Book the service with date and other details.
+- Developed a page for the admin
+- Where Admin can see all the booked services
+- Add new services
 
-### `npm run build`
+**other Functionalities**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- User can log in with their gmail.
+- The service details is set to booking page dynamically.
+- User can select their desired date from a dynamic calendar.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Technology
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ReactJS
+- React Router
+- NodeJS
+- ExpressJS
+- MongoDB
+- Firebase Authentication
+- Heroku
+- HTML/CSS
+- Bootstrap/ Material UI
+- etc.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Download the Zip or Clone the git, then run
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# volunteer-network-client
+then setUp a .env file in the server side code with your own sets of MongoDB uri
